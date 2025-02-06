@@ -1,0 +1,59 @@
+@font-face {
+  font-family: KissingSeason;
+  src: url(Kissing\ Season.ttf);
+}
+
+body 
+{
+  font-family: KissingSeason;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /*background-image: url(bg3.jpg);*/
+  background-color: #ffb7ce;
+  
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-repeat: none;
+}
+
+h1 
+{
+  size: 10px;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  gap: 15px;
+}
+
+button 
+{
+  padding: 1rem 1.5rem;
+  background-color: #ff0080;
+  border-radius: 15px;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover 
+{
+  background-color: #ff37ac;
+}
+
+button:active 
+{
+  background-color: #e43f73;
+}
+
+p
+{
+  font-family: KissingSeason;
+  font-size:5rem;
+}

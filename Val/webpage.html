@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be Mine Pls ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="heading">Will you be my valentine?🥺</h1>
+    <div id="btnContainer">
+        <button id="yes">YES!! :D</button>
+        <button id="no">NO 😢</button>
+    </div>
+    <div id="gif" style="display:none; text-align:center;">
+        <img id="valentine-gif" src="bear-kiss-bear-kisses.gif">
+        <p>YAY! 💕 YOU'RE MY VALENTiNE! ILYSM 🥰</p>
+    </div>
+</body>
+</html>
+
+<script>
+    const yesBtn=document.getElementById('yes');
+    const noBtn=document.getElementById('no');
+    const buttonContainer = document.getElementById('btnContainer');
+    const gifContainer = document.getElementById('gif-container');
+    let size=1;
+    noBtn.addEventListener('click', function()
+    {
+        size++;
+        yesBtn.style.fontSize=size+'rem';
+    });
+    yesBtn.addEventListener('click', function()
+    {
+        heading.style.display='none';
+        btnContainer.style.display='none';
+        gif.style.display='block';
+    });
+</script>
